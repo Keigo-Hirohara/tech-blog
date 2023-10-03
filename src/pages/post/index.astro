@@ -6,7 +6,7 @@ import { SITE_TITLE, SITE_DESCRIPTION } from '../../consts';
 import { getCollection } from 'astro:content';
 import PostCard from '../../components/PostCard/index.astro';
 import '../../styles/reset.scss';
-import styles from '../../styles/pages/post/index.scss';
+import '../../styles/pages/post/index.scss';
 
 const posts = (await getCollection('blog')).sort(
   (a, b) => a.data.pubDate.valueOf() - b.data.pubDate.valueOf()
@@ -20,8 +20,8 @@ const posts = (await getCollection('blog')).sort(
   </head>
   <body>
     <Header />
-    <main class={styles.postsPage}>
-      <div class={styles.posts}>
+    <main>
+      <div>
         {
           posts.map((post) => (
             <PostCard post={post} heroImage={post.data.heroImage} />

@@ -1,9 +1,9 @@
 
-.postsPage {
-  margin: 0 4rem;
+main {
+  margin: 0 5%;
   display: flex;
   justify-content: center;
-  >.posts {
+  >div {
     display: flex;
     flex-wrap: wrap;
   }
