@@ -1,0 +1,11 @@
+
+.postsPage {
+  margin: 0 4rem;
+  display: flex;
+  justify-content: center;
+  >.posts {
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
+

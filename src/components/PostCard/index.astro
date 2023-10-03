@@ -1,0 +1,21 @@
+---
+import styles from './style.module.scss';
+
+const { post } = Astro.props;
+---
+
+<div class={styles.postCard}>
+  <a class={styles.postCardLink} href={`/post/${post.slug}`}>
+    <div class={styles.postCardImageWrapper}>
+      <img
+        width={300}
+        height={200}
+        src={post.data.heroImage}
+        alt={post.title}
+        class={styles.postCardImage}
+      />
+    </div>
+    <p class={styles.postTitle}>{post.data.title}</p>
+    <p class={styles.postDescription}>{post.content}</p>
+  </a>
+</div>

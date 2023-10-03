@@ -1,0 +1,46 @@
+@import '../../../styles/variables.scss';
+
+.header {
+  border-bottom: 1px solid $black-4;
+  background-color: $white;
+  padding: 1rem 3rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  >.headerLeft {
+    >.logo {
+      font-size: 2em;
+      font-weight: 700;
+      color: $black-1;
+      margin-left: 1rem;
+      text-decoration: none;
+    }
+  }
+
+  >.headerCenter {
+    >.link {
+      font-size: 1rem;
+      color: $black-1;
+      margin-left: 1rem;
+      text-decoration: none;
+    }
+  }
+
+  >.headerRight {
+    display: flex;
+    align-items: center;
+    >.contactPageLink {
+      background-color: $sub-color-1;
+      font-size: 1rem;
+      color: $black-1;
+      color: white;
+      margin-right: 1rem;
+      text-decoration: none;
+      padding: 0.5rem 1rem;
+      border-radius: 0.5rem;
+    }
+  }
+}

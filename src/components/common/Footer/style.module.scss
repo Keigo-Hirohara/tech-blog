@@ -1,0 +1,14 @@
+@import '../../../styles/variables.scss';
+
+.footer {
+  background-color: $base-color-1;
+  border-top: 1px solid #ddd;
+  padding: 20px 0;
+  text-align: center;
+  >.titleWrapper {
+    >.title {
+      font-size: 1rem;
+      color: $white
+    }
+  }
+}
