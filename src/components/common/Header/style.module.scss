@@ -33,13 +33,13 @@
     display: flex;
     align-items: center;
     >.contactPageLink {
-      background-color: $sub-color-1;
+      background-color: $accent-color-1;
       font-size: 1rem;
       color: $black-1;
-      color: white;
       margin-right: 1rem;
       text-decoration: none;
       padding: 0.5rem 1rem;
+      border: 1px solid $black-1;
       border-radius: 0.5rem;
     }
   }
