@@ -1,6 +1,6 @@
 ---
 title: Kubernetesを用いたコンテナオーケストレーションの構築
-image: noImage.jpg
+image: no-image.jpg
 ---
 
 ## Kubernetes とは？

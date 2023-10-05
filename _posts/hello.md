@@ -1,6 +1,6 @@
 ---
 title: ご挨拶
-image: noImage.jpg
+image: no-image.jpg
 ---
 
 ### こんにちは！
