@@ -1,6 +1,7 @@
 @import '../../styles/variables.scss';
 
-.postCard {
+.postCardLink {
+  display: inline-block;
   border: 1px solid $black-3;
   border-radius: 0.5rem;
   width: 350px;
@@ -12,29 +13,26 @@
     transform: scale(1.05);
     transition: all 0.1s ease-in-out;
   }
-  >.postCardLink {
-    text-decoration: none;
-    >.postCardImageWrapper {
-      margin: 1rem auto;
-      position: relative;
-      width: 300px;
-      height: 200px;
-      >.postCardImage {
-        object-fit: contain;
-      }
-    }
-    >.postTitle {
-      margin: 0 1rem 1rem 1rem;
-      color: $black-1;
-      border: none;
-    }
-
-    >.postDescription {
-      margin: 1rem;
-      color: $black-1;
-      font-size: 0.75rem;
-      color: $black-2;
+  text-decoration: none;
+  >.postCardImageWrapper {
+    margin: 1rem auto;
+    position: relative;
+    width: 300px;
+    height: 200px;
+    >.postCardImage {
+      object-fit: contain;
     }
   }
+  >.postTitle {
+    margin: 0 1rem 1rem 1rem;
+    color: $black-1;
+    border: none;
+  }
 
+  >.postDescription {
+    margin: 1rem;
+    color: $black-1;
+    font-size: 0.75rem;
+    color: $black-2;
+  }
 }
