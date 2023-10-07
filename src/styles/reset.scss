@@ -71,3 +71,7 @@ select {
     scroll-behavior: auto !important;
   }
 }
+
+main {
+  min-height: 100vh;
+}
