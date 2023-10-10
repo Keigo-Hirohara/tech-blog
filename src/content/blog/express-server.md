@@ -57,7 +57,7 @@ Express のみを使うと、http 以外のプロトコルを使うことがで�
 この http のおかげでインターネットから web サイトを見ることができているのですが、時々違う通信規格を使う時があるのですよ。
 一つ例を挙げると webScket と言われる通信プロトコルがあります。
 双方向の通信を可能にするプロトコルなのですが、詳しくは説明しません。
-![httpとwebsocket通信の違い](/http-websocket.jpg)
+<img src="/http-websocket.jpg" width="500" alt="httpとwebsocket通信の違い">
 チャット機能や通話時に使われていて、URL は wss://〜〜から始まります。
 
 ## http モジュールを使った websocket サーバーの構築

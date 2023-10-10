@@ -34,7 +34,7 @@ JavaScript は、ブラウザ上で動かすプログラミング言語ですよ
 そこで登場するのが、Node.js です！
 
 Node.js とは、Python や PHP と同じようにパソコン上で javascript を動かすための環境のことなんです。
-![Node.jsをPC上で動かせるようにしたランタイム](/difference-nodejs.jpg)
+<img src="/difference-nodejs.jpg" width="500" alt="Node.jsをPC上で動かせるようにしたランタイム">
 
 # JavaScript をパソコン上で動かして、何か良いことがあるのか？
 
@@ -47,7 +47,7 @@ V8 エンジンというものが関係してくるのですが、V8 エンジ�
 「この超高速エンジンを使ってパソコン上でプログラミングできないか？」となり、出来上がったのが Node.js です。
 
 V8 エンジンを使って高速の処理をしたいから、Node.js が作られたのですね！
-![JSを動かす環境としてV8エンジンを採用](/v8-plus-js.jpg)
+<img src="/v8-plus-js.jpg" width="500" alt="JSを動かす環境としてV8エンジンを採用">
 
 # Node.js にはどんな特徴があるのか？
 
@@ -62,7 +62,7 @@ JavaScript は、一つの処理しか実行できないという特性があり
 Node.js はこの課題を克服し、非同期処理を同時進行させることができるのですよ！
 
 シングルスレッドとは対照的に、マルチスレッドと呼ばれています(^^)
-![Node.jsはシングルスレッドなのに平行処理可能](/multi-thread-nodejs.jpg)
+<img src="/multi-thread-nodejs.jpg" width="500" alt="Node.jsはシングルスレッドなのに平行処理可能">
 
 # 具体的な非同期処理の流れ。。。
 

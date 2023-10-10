@@ -31,7 +31,7 @@ https://app-gram-kei.com
 
 開発を進めていく中でポート番号（3000 番とか 8000 番とか）を指定していきますが、それも含めてまとめてオリジンと呼ぶそうです！
 
-![corsの構造](/this-is-cors.jpg)
+<img src="/this-is-cors.jpg" width="500" alt="corsの構造">
 
 # （本題）オリジン間リソース共有とは？？
 
@@ -53,7 +53,7 @@ node.js を用いた開発を例に考えて見ましょう！
 
 一つの web ページで複数のオリジンを使うのは基本的に NG なのですが、cors を使うことによって使う許可を得られるのです！
 
-![corsの役割](/cors-role.jpg)
+<img src="/cors-role.jpg" width="500" alt="corsの役割">
 
 npm を使って
 
